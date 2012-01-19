@@ -1,0 +1,17 @@
+README.txt
+setup.py
+ewb_case/__init__.py
+ewb_case.static_portlets.egg-info/PKG-INFO
+ewb_case.static_portlets.egg-info/SOURCES.txt
+ewb_case.static_portlets.egg-info/dependency_links.txt
+ewb_case.static_portlets.egg-info/entry_points.txt
+ewb_case.static_portlets.egg-info/namespace_packages.txt
+ewb_case.static_portlets.egg-info/not-zip-safe
+ewb_case.static_portlets.egg-info/requires.txt
+ewb_case.static_portlets.egg-info/top_level.txt
+ewb_case/static_portlets/__init__.py
+ewb_case/static_portlets/static_portlets/__init__.py
+ewb_case/static_portlets/static_portlets/dontateewb.py
+ewb_case/static_portlets/static_portlets/tests/__init__.py
+ewb_case/static_portlets/static_portlets/tests/base.py
+ewb_case/static_portlets/static_portlets/tests/test_portlet.py
