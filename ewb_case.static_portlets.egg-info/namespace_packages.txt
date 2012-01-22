@@ -1,2 +1,0 @@
-ewb_case
-ewb_case.static_portlets

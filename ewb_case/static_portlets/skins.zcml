@@ -1,0 +1,9 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:cmf="http://namespaces.zope.org/cmf"
+    i18n_domain="ewb_case.static_portlets">
+
+  <!-- File System Directory Views registration -->
+    <cmf:registerDirectory name="ewb_case_static_portlets_images"/>
+    
+</configure>

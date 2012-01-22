@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<portlets>
+  <!-- Portlet type registrations -->
+
+    <portlet
+        addview="ewb_case.static_portlets.portlets.GetInvolved"
+        title="Get Involved Portlet"
+        description="Portlet linking to ways to get involved: volunteer, sponsor, mentor"
+        />
+        
+</portlets>

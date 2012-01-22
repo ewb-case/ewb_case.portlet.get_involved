@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<object name="portal_skins" allow_any="False" cookie_persistence="False"
+    default_skin="EWB Case Static Portlets">
+
+    <object name="ewb_case_static_portlets_images"
+        meta_type="Filesystem Directory View"
+        directory="ewb_case.static_portlets:skins/ewb_case_static_portlets_images"/>
+        
+    <skin-path name="EWB Case Static Portlets" based-on="Plone Default">
+        <layer name="ewb_case_static_portlets_images"
+            insert-after="custom"/>
+    </skin-path>
+    
+</object>
