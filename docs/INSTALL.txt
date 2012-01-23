@@ -1,27 +1,27 @@
-ewb_case.static_portlets Installation
+ewb_case.portlet.get_involved Installation
 =======================
 
  * When you're reading this you have probably already run
-   ``easy_install ewb_case.static_portlets``. Find out how to install setuptools
+   ``easy_install ewb_case.portlet.get_involved``. Find out how to install setuptools
    (and EasyInstall) here:
    http://peak.telecommunity.com/DevCenter/EasyInstall
 
- * Create a file called ``ewb_case.static_portlets-configure.zcml`` in the
+ * Create a file called ``ewb_case.portlet.get_involved-configure.zcml`` in the
    ``/path/to/instance/etc/package-includes`` directory.  The file
    should only contain this::
 
-       <include package="ewb_case.static_portlets.static_portlets" />
+       <include package="ewb_case.portlet.get_involved.static_portlets" />
 
 Alternatively, if you are using zc.buildout and the plone.recipe.zope2instance
 recipe to manage your project, you can do this:
 
- * Add ``ewb_case.static_portlets`` to the list of eggs to install, e.g.:
+ * Add ``ewb_case.portlet.get_involved`` to the list of eggs to install, e.g.:
 
     [buildout]
     ...
     eggs =
         ...
-        ewb_case.static_portlets
+        ewb_case.portlet.get_involved
 
   * Tell the plone.recipe.zope2instance recipe to install a ZCML slug:
 
@@ -29,7 +29,7 @@ recipe to manage your project, you can do this:
     recipe = plone.recipe.zope2instance
     ...
     zcml =
-        ewb_case.static_portlets.static_portlets
+        ewb_case.portlet.get_involved.static_portlets
 
   * Re-run buildout, e.g. with:
 

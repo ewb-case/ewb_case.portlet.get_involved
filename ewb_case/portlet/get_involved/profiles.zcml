@@ -1,0 +1,16 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:five="http://namespaces.zope.org/five"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    i18n_domain="ewb_case.portlet.get_involved">
+
+    <genericsetup:registerProfile
+        name="default"
+        title="EWB Case Static Portlets"
+        directory="profiles/default"
+        description="Static portlets for the EWB Case website"
+        provides="Products.GenericSetup.interfaces.EXTENSION"
+        />
+        
+</configure>

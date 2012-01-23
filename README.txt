@@ -1,5 +1,5 @@
 ========================
-ewb_case.static_portlets
+ewb_case.portlet.get_involved
 ========================
 
 :Author: Matt Bierner
@@ -9,16 +9,5 @@ ewb_case.static_portlets
 About
 =====
 
-A collection of porlets with static content for the Case Western Engineers
-Without Borders website.
-
-
-Included Portlets
-=================
-
-
-Get Involved Portlet
---------------------
-
-A portlet that displays ways to get involved with EWB Case: join, sponsor,
-and mentor.
+A simple static portlet that displays ways to get involved with EWB Case:
+join, sponsor, and mentor.

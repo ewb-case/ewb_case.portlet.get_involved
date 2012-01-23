@@ -2,7 +2,7 @@ from zope import schema
 
 from plone.portlets.interfaces import IPortletDataProvider
 
-from ewb_case.static_portlets import _
+from ewb_case.portlet.get_involved import _
 
 
 class IGetInvolved(IPortletDataProvider):

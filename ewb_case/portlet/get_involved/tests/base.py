@@ -18,21 +18,21 @@ def setup_product():
     # Load the ZCML configuration for this package and its dependencies
 
     fiveconfigure.debug_mode = True
-    import ewb_case.static_portlets.static_portlets
-    zcml.load_config('configure.zcml', ewb_case.static_portlets.static_portlets)
+    import ewb_case.portlet.get_involved.static_portlets
+    zcml.load_config('configure.zcml', ewb_case.portlet.get_involved.static_portlets)
     fiveconfigure.debug_mode = False
 
     # We need to tell the testing framework that these products
     # should be available. This can't happen until after we have loaded
     # the ZCML.
 
-    ztc.installPackage('ewb_case.static_portlets.static_portlets')
+    ztc.installPackage('ewb_case.portlet.get_involved.static_portlets')
 
 # The order here is important: We first call the deferred function and then
 # let PloneTestCase install it during Plone site setup
 
 setup_product()
-ptc.setupPloneSite(products=['ewb_case.static_portlets.static_portlets'])
+ptc.setupPloneSite(products=['ewb_case.portlet.get_involved.static_portlets'])
 
 
 class TestCase(ptc.PloneTestCase):

@@ -1,0 +1,29 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:five="http://namespaces.zope.org/five"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    i18n_domain="ewb_case.portlet.get_involved">
+
+    <five:registerPackage package="." initialize=".initialize" />
+    
+    <include file="profiles.zcml" />
+
+
+    <plone:portlet
+        name="ewb_case.portlet.get_involved.portlets.GetInvolved"
+        interface="ewb_case.portlet.get_involved.interfaces.portlets.IGetInvolved"
+        assignment=".get_involved.Assignment"
+        view_permission="zope2.View"
+        edit_permission="cmf.ManagePortal"
+        renderer=".get_involved.Renderer"
+        addview=".get_involved.AddForm"
+        editview=".get_involved.EditForm"
+        />
+
+
+    <browser:resourceDirectory
+        name="ewb_case.portlet.get_involved"
+        directory="resources"
+        />
+        
+</configure>

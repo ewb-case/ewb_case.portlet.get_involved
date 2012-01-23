@@ -1,6 +1,6 @@
 from zope.i18nmessageid import MessageFactory
 
-_ = MessageFactory('ewb_case.static_portlets')
+_ = MessageFactory('ewb_case.portlet.get_involved')
 
 
 def initialize(context):

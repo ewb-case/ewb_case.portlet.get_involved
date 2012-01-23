@@ -1,5 +1,5 @@
 <dl class="portlet portletGetInvolved leftHeaderPortlet clearfix"
-    i18n:domain="ewb_case.static_portlets.static_portlets">
+    i18n:domain="ewb_case.portlet.get_involved.static_portlets">
 
     <dt class="portletHeader portletLeftHeader">
         <span class="portletTopLeft"></span>
@@ -10,15 +10,15 @@
     <dd class="portletItem odd"
       tal:define="
         navroot context/@@plone_portal_state/navigation_root_url;
-        resource_root string:${navroot}/++resource++ewb_case.static_portlets">
+        resource_root string:${navroot}/++resource++ewb_case.portlet.get_involved">
         <ul class="clearfix">
             <li>
                 <a href=''
                   tal:attributes="href view/data/join_url;">
                     <object type="image/svg+xml" width="64px" height="64px"
-                      tal:attributes="data string:${resource_root}.get_involved/join.svg">
+                      tal:attributes="data string:${resource_root}/join.svg">
                         <img src="" alt="join"
-                          tal:attributes="src string:${resource_root}.get_involved/join.png">
+                          tal:attributes="src string:${resource_root}/join.png">
                     </object>
                     <div>Join</div>
                 </a>
@@ -27,9 +27,9 @@
                 <a href=''
                   tal:attributes="href view/data/sponsor_url;">
                     <object type="image/svg+xml" width="64px" height="64px"
-                      tal:attributes="data string:${resource_root}.get_involved/sponsor.svg">
+                      tal:attributes="data string:${resource_root}/sponsor.svg">
                         <img alt="sponsor"
-                          tal:attributes="src string:${resource_root}.get_involved/sponsor.png">
+                          tal:attributes="src string:${resource_root}/sponsor.png">
                     </object>
                     <div>Sponsor</div>
                 </a>
@@ -39,9 +39,9 @@
                   tal:attributes="href view/data/mentor_url;">
                     <object data="get_involved-join.svg" type="image/svg+xml"
                       width="64px" height="64px"
-                      tal:attributes="data string:${resource_root}.get_involved/mentor.svg">
+                      tal:attributes="data string:${resource_root}/mentor.svg">
                         <img alt="mentor"
-                          tal:attributes="src string:${resource_root}.get_involved/mentor.png">
+                          tal:attributes="src string:${resource_root}/mentor.png">
                     </object>
                     <div>Mentor</div>
                 </a>

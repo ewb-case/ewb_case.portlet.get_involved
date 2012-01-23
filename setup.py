@@ -4,9 +4,9 @@ import os
 version = '0.1.0'
 
 setup(
-    name='ewb_case.static_portlets',
+    name='ewb_case.portlet.get_involved',
     version=version,
-    description="Static portlets for the EWB Case website",
+    description="Static portlet showing ways to get involved in EWB Case.",
     long_description=open("README.txt").read() + "\n" +
                      open(os.path.join("docs", "HISTORY.txt")).read(),
     classifiers=[
@@ -17,10 +17,10 @@ setup(
     keywords='',
     author='',
     author_email='',
-    url='http://github.com/mattbierner/ewb_case.static_portlets/',
+    url='http://github.com/mattbierner/ewb_case.portlet.get_involved/',
     license='GPL',
     packages=find_packages(exclude=['ez_setup']),
-    namespace_packages=['ewb_case', ],
+    namespace_packages=['ewb_case', 'ewb_case.portlet'],
     include_package_data=True,
     zip_safe=False,
     install_requires=[
