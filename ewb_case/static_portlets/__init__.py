@@ -1,9 +1,14 @@
-from Products.CMFCore.DirectoryView import registerFileExtension
-from Products.CMFCore.FSFile import FSFile
+from zope.i18nmessageid import MessageFactory
+
+_ = MessageFactory('ewb_case.static_portlets')
+
 
 def initialize(context):
     """Initializer called when used as a Zope 2 product.
     """
     
     # Register SVG File Extensions for CMF
+    from Products.CMFCore.DirectoryView import registerFileExtension
+    from Products.CMFCore.FSFile import FSFile
+    
     registerFileExtension('svg', FSFile)

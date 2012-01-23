@@ -20,12 +20,13 @@ setup(
     url='http://github.com/mattbierner/ewb_case.static_portlets/',
     license='GPL',
     packages=find_packages(exclude=['ez_setup']),
-    namespace_packages=['ewb_case', 'ewb_case.static_portlets'],
+    namespace_packages=['ewb_case', ],
     include_package_data=True,
     zip_safe=False,
     install_requires=[
         'setuptools',
-        'Products.CMFCore',
+        'Plone>=4.0',
+        'zope.i18nmessageid',
     ],
     entry_points="""
     # -*- Entry points: -*-

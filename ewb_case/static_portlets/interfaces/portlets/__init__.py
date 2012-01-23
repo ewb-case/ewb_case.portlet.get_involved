@@ -1,1 +1,1 @@
-from ewb_case.static_portlets.interfaces.get_involved import  IGetInvolved
+from ewb_case.static_portlets.interfaces.portlets.get_involved import  IGetInvolved

@@ -7,7 +7,7 @@
 
     <genericsetup:registerProfile
        name="default"
-       title="EWB Main Donate Portlet"
+       title="EWB Case Static Portlets"
        directory="profiles/default"
        description="Static portlets for the EWB Case website"
        provides="Products.GenericSetup.interfaces.EXTENSION"

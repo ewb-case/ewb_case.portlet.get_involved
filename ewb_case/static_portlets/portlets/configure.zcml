@@ -9,7 +9,7 @@
     <plone:portlet
         name="ewb_case.static_portlets.portlets.GetInvolved"
         interface="ewb_case.static_portlets.interfaces.portlets.IGetInvolved"
-        assignment=".dontateewb.Assignment"
+        assignment=".get_involved.Assignment"
         view_permission="zope2.View"
         edit_permission="cmf.ManagePortal"
         renderer=".get_involved.Renderer"

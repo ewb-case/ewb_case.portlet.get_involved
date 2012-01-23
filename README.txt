@@ -20,5 +20,5 @@ Included Portlets
 Get Involved Portlet
 --------------------
 
-A portlet with a left side header that displays ways to get involved with EWB
-Case: join, sponsor, and mentor.
+A portlet that displays ways to get involved with EWB Case: join, sponsor,
+and mentor.

@@ -2,6 +2,8 @@ from zope import schema
 
 from plone.portlets.interfaces import IPortletDataProvider
 
+from ewb_case.static_portlets import _
+
 
 class IGetInvolved(IPortletDataProvider):
     """A portlet
@@ -11,19 +13,19 @@ class IGetInvolved(IPortletDataProvider):
     same.
     """
     
-    join_url = schema.URI(
+    join_url = schema.TextLine(
         title=_(u"Join URL"),
         description=_(u"URL the join section links to."),
         required=False
     )
     
-    sponsor_url = schema.URI(
+    sponsor_url = schema.TextLine(
         title=_(u"Sponsor URL"),
         description=_(u"URL the sponsor section links to."),
         required=False
     )
     
-    mentor_url = schema.URI(
+    mentor_url = schema.TextLine(
         title=_(u"Mentor URL"),
         description=_(u"URL the mentor section links to."),
         required=False

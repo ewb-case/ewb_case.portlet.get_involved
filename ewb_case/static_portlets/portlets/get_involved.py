@@ -5,7 +5,7 @@ from plone.app.portlets.portlets import base
 
 from Products.Five.browser.pagetemplatefile import ViewPageTemplateFile
 
-from ewb_case.static_portlets.interfaces.porlets import IGetInvolved
+from ewb_case.static_portlets.interfaces.portlets import IGetInvolved
 
 
 class Assignment(base.Assignment):
