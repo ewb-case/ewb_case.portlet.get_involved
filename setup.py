@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '0.1.0'
+version = '0.1.1'
 
 setup(
     name='ewb_case.portlet.get_involved',
@@ -15,8 +15,8 @@ setup(
       "Development Status :: 4 - Beta",
       ],
     keywords='',
-    author='',
-    author_email='',
+    author='Matt Bierner',
+    author_email='mattbierner@gmail.com',
     url='http://github.com/mattbierner/ewb_case.portlet.get_involved/',
     license='GPL',
     packages=find_packages(exclude=['ez_setup']),
