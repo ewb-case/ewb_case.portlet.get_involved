@@ -1,2 +1,2 @@
 recursive-include docs *
-recursive-include plonetheme *
+recursive-include ewb_case *
