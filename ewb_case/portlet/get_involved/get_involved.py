@@ -30,7 +30,7 @@ class Assignment(base.Assignment):
     def title(self):
         """The title of the portlet used in the "manage portlets" screen.
         """
-        return "Get Involved Portlet"
+        return "Get Involved"
 
 
 class Renderer(base.Renderer):
